@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	/* background-image: url(https://i.pinimg.com/originals/70/b6/e0/70b6e0627a7110816e317b8101aa8d8e.jpg); */
+	background-color: darkgray;
+}
+header{ 
+	color: black;
+	font-size:30px;
+	text-align:center;
+	background-color: yellow;
+	height: 60px;
+	padding: 20px;
+	font-family: 'Pacifico', cursive;
+}
+.badge{
+	color: black;
+	font-size: 20px;
+}
+
+
+/* .start{
+	color: white;
+	font-family: 'Kaushan Script';
+	font-size: 30px;
+
+} */   
+.score-board{
+	margin: 20px auto;
+	border: 3px solid;
+	border-radius: 6px;
+	text-align: center;
+	 width :200px;
+	 height: 70px;
+	font-size: 40px;
+	position: relative;
+}
+.badge{
+	background: brown;
+	font-size: 14px;
+	width: 70px;
+	padding: 3px 10px;
+}
+#user-label{
+	position: absolute;
+	top: 30px;
+	left: -20px;
+
+}
+#computer-label{
+	position: absolute;
+	top: 30px;
+	right: -20px;
+}
